@@ -7,7 +7,6 @@ import Image from 'next/image';
 export default function Page() {
   return (
     <main className="flex min-h-screen flex-col p-8">
-      <Link href="/users">Users</Link>
       <div className="flex h-20 shrink-0 items-end rounded-lg bg-red-500 p-4 md:h-52">
         {<AcmeLogo />}
       </div>
